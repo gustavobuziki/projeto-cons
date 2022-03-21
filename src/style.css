@@ -4,26 +4,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#121212, #212b46);
+    background: linear-gradient(#121212, #afb4c2);
 }
 .tittle{
     font-size: 85px;
     color: #fff;
-    animation: flipTitlle 2s;
+    animation: flipTitle 5s;
 }
-@keyframes flipTitlle {
+@keyframes flipTitle {
     from{
         transform: rotateX(90deg);
     }
     to{
-        transform: rotateX(0geg);
+        transform: rotateX(0deg);
     }
 }
 .containerInput{
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 15px;
     display: flex;
-    margin: 34px;
+    margin: 34px 0;
     border-radius: 8px;
     box-shadow: 1px, 3px, 8px rgba(0, 0, 0, 0.5);
 }
@@ -31,7 +31,7 @@
     background-color: transparent;
     border: 0;
     font-size: 20px;
-    color: transparent;
+    color: white ;
     outline: none;
     margin-right: 8px;
 }
@@ -52,7 +52,7 @@
 }
 .dados{
     display: flex;
-    justify-content:center;
+    justify-content:flex;
     background-color: white;
     align-items: center;
     width: 500px;
